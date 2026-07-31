@@ -7,6 +7,13 @@
   font-size: 48px;
 }
 
+.section-subtitle {
+  width: 571px;
+  line-height: 1.28571;
+  color: #fbfbfb66;
+  margin: 0 auto;
+}
+
 #about .section-title {
   color: #1b414b;
   text-align: left;
