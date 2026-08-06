@@ -13,12 +13,52 @@
 .rent-section-title {
   margin-bottom: 50px;
 }
-.rent-section-form {
-  width: 472px;
-  height: 332px;
-  background-color: #180c88;
+.rent-section-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 
   margin-bottom: 50px;
+}
+
+.form-input {
+  border: 1px solid #fbfbfb33;
+  background-color: transparent;
+  border-radius: 12px;
+  padding: 18px 0 18px 18px;
+
+  line-height: 1.28571;
+  color: #fbfbfb;
+
+  transition: border 250ms linear;
+}
+
+.form-input:focus {
+  outline: none; /*!!!!!*/
+  border-color: #fbfbfb80;
+}
+
+.form-input::placeholder {
+  color: #fbfbfb66;
+}
+
+.form-textarea {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+  background-color: transparent;
+  padding: 18px 0 80px 18px;
+  color: #fbfbfb;
+
+  transition: border 250ms linear;
+}
+
+.form-textarea::placeholder {
+  color: #fbfbfb66;
+}
+
+.form-textarea:focus {
+  outline: none; /*!!!!!*/
+  border-color: #fbfbfb80;
 }
 
 .rent-section-button {

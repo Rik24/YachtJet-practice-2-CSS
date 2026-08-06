@@ -24,7 +24,18 @@ a {
 }
 
 button {
+  font-family: 'Inter', sans-serif;
+
   border: none;
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+input,
+textarea {
+  font-family: 'Inter', sans-serif;
+  font-family: inherit;
 }
 
 ul {

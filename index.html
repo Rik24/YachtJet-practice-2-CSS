@@ -272,11 +272,42 @@
           <img
             src="./images/rent-section/yacht.webp"
             alt="rent-section-image"
+            class="rent-image"
           />
           <div class="form-wrapper">
             <h2 class="section-title rent-section-title">Rent a yacht now</h2>
-            <div class="rent-section-form">Full Name</div>
-            <button class="rent-section-button">Send</button>
+            <form class="rent-section-form">
+              <div class="rent-section-inputs">
+                <input
+                  class="form-input"
+                  type="text"
+                  name="user-name"
+                  placeholder="Full Name"
+                  required
+                />
+                <input
+                  class="form-input"
+                  type="email"
+                  name="user-email"
+                  placeholder="Email"
+                  required
+                />
+                <input
+                  class="form-input"
+                  type="tel"
+                  name="user-phone"
+                  placeholder="Phone number"
+                  required
+                />
+                <textarea
+                  class="form-textarea"
+                  name="comment"
+                  placeholder="Comment"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="rent-section-button">Send</button>
+            </form>
           </div>
         </div>
       </section>
