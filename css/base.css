@@ -30,6 +30,12 @@ button {
   font-family: inherit;
   color: inherit;
   cursor: pointer;
+
+  padding: 0;
+  line-height: 0;
+
+  background-color: transparent;
+  border: none;
 }
 
 input,
